@@ -1,7 +1,8 @@
 import React from 'react';
-import QRCode from 'qrcode.react';
+import QRCode from 'react-qr-code';
+import './QRCodeDisplay.css'
 
-const QrCode = ({ url }) => {
+const QRCodeDisplay = ({ url }) => {
     return (
         <div className="qr-code-container">
             <h2>Scan to Join the Game</h2>
@@ -10,4 +11,4 @@ const QrCode = ({ url }) => {
     );
 };
 
-export default QrCode;
+export default QRCodeDisplay;

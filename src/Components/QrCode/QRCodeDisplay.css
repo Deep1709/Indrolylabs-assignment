@@ -1,0 +1,10 @@
+.qr-code-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.qr-code-container h2 {
+    margin-bottom: 10px;
+}

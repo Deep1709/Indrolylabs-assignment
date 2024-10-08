@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './PlayerJoin.css'
 
 const PlayerJoin = ({ onJoin }) => {
     const [playerName, setPlayerName] = useState('');

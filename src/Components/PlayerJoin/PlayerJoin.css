@@ -1,0 +1,10 @@
+.join-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.join-container h2 {
+    margin-bottom: 10px;
+}
